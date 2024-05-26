@@ -184,7 +184,7 @@ GLuint cargarTextura(const char* archivo) {
 	}
 }
 
-std::vector<Mesh> cargar_modelo(const std::string& path, int modelIndex) {
+std::vector<Mesh> cargar_modelos(const std::string& path, int modelIndex) {
 	Assimp::Importer importer;
 	const aiScene* scene = importer.ReadFile(path, aiProcess_Triangulate | aiProcess_FlipUVs | aiProcess_GenSmoothNormals);
 	std::vector<Mesh> meshDatas;

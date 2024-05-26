@@ -95,8 +95,8 @@ char* leer_codigo_de_fichero(const char*);
 
 GLuint cargar_cube_map(const char *, GLuint);
 GLuint cargar_textura(const char *,GLuint);
-objeto cargar_modelo(char*);
-std::vector<Mesh> cargar_modelo(const std::string& path, int modelIndex);
+objeto cargar_modelos(char*);
+std::vector<Mesh> cargar_modelos(const std::string& path, int modelIndex);
 GLuint cargarTextura(const char* archivo);
 std::vector<GLuint> getTextures(int modelIndex);
 
