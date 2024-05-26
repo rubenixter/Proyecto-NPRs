@@ -1,1 +1,0 @@
-El contenido de los archivos fuente de nuestro proyecto, se encuentra en el siguiente link de github: https://github.com/rubenixter/Proyecto-NPRs
